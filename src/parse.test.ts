@@ -117,13 +117,13 @@ test("should parse diff", () => {
         ],
         "newEndingNewLine": true,
         "newMode": "100644",
-        "newPath": "dev/null",
+        "newPath": "/dev/null",
         "newRevision": "abb3a30",
         "oldEndingNewLine": true,
         "oldMode": "100644",
         "oldPath": "test.txt",
         "oldRevision": "c5284c3",
-        "type": "modify",
+        "type": "delete",
       },
     ]
   `);

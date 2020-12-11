@@ -56,6 +56,7 @@ test("should annotate correctly", () => {
         "message": "
     Please consider an alternative to \`Master\`. 
     Possibilities include: \`primary\`, \`main\`, \`leader\`, \`active\`, \`writer\`",
+        "path": "README.md",
         "raw_details": "/master/gi",
         "start_column": 0,
         "start_line": 3,
@@ -128,20 +129,6 @@ test("should annotate with correct level", () => {
     Please consider an alternative to \`whitelist\`. 
     ",
         "path": "README.md",
-        "raw_details": "/white[_-]*list/gi",
-        "start_column": 0,
-        "start_line": 2,
-        "title": "Match Found",
-      },
-      Object {
-        "annotation_level": "failure",
-        "end_column": 8,
-        "end_line": 2,
-        "message": "
-    Please consider an alternative to \`whitelist\`. 
-    ",
-        "path": ".github/in-solidarity.yml
-    ",
         "raw_details": "/white[_-]*list/gi",
         "start_column": 0,
         "start_line": 2,
