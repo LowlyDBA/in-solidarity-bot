@@ -67,38 +67,10 @@ test("solidarity should run check on failing diff", async () => {
       Array [
         Object {
           "column": 0,
-          "content": "whitelist
-    ",
+          "content": "whitelist",
           "level": "warning",
           "line": 2,
-          "path": "README.md
-    ",
-          "regex": "/white[_-]*list/gi",
-        },
-        "match",
-      ],
-      Array [
-        Object {
-          "column": 0,
-          "content": "Master
-    ",
-          "level": "warning",
-          "line": 3,
-          "path": "README.md
-    ",
-          "regex": "/master/gi",
-        },
-        "match",
-      ],
-      Array [
-        Object {
-          "column": 0,
-          "content": "whitelist
-    ",
-          "level": "warning",
-          "line": 2,
-          "path": ".github/in-solidarity.yml
-    ",
+          "path": ".github/in-solidarity.yml",
           "regex": "/white[_-]*list/gi",
         },
         "match",
@@ -109,8 +81,7 @@ test("solidarity should run check on failing diff", async () => {
           "content": "Master",
           "level": "warning",
           "line": 3,
-          "path": ".github/in-solidarity.yml
-    ",
+          "path": ".github/in-solidarity.yml",
           "regex": "/master/gi",
         },
         "match",
