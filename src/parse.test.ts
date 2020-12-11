@@ -26,70 +26,61 @@ test("should parse diff", () => {
           Object {
             "changes": Array [
               Object {
-                "content": "
-    ",
+                "content": "",
                 "isNormal": true,
                 "newLineNumber": 23,
                 "oldLineNumber": 23,
                 "type": "normal",
               },
               Object {
-                "content": "const PATTERN = /((?:(?:white|black)[_-]*list)|slave|master)/gi;
-    ",
+                "content": "const PATTERN = /((?:(?:white|black)[_-]*list)|slave|master)/gi;",
                 "isNormal": true,
                 "newLineNumber": 24,
                 "oldLineNumber": 24,
                 "type": "normal",
               },
               Object {
-                "content": "const SUMMARY = fs.readFileSync(\\"./static/HELP.md\\", \\"utf8\\");
-    ",
+                "content": "const SUMMARY = fs.readFileSync(\\"./static/HELP.md\\", \\"utf8\\");",
                 "isNormal": true,
                 "newLineNumber": 25,
                 "oldLineNumber": 25,
                 "type": "normal",
               },
               Object {
-                "content": "const CHECK_NAME = \\"Inclusive Language Check\\";
-    ",
+                "content": "const CHECK_NAME = \\"Inclusive Language Check\\";",
                 "isDelete": true,
                 "lineNumber": 26,
                 "type": "delete",
               },
               Object {
-                "content": "const CHECK_NAME = \\"Inclusive Language\\";
-    ",
+                "content": "const CHECK_NAME = \\"Inclusive Language\\";",
                 "isInsert": true,
                 "lineNumber": 26,
                 "type": "insert",
               },
               Object {
-                "content": "
-    ",
+                "content": "",
                 "isNormal": true,
                 "newLineNumber": 27,
                 "oldLineNumber": 27,
                 "type": "normal",
               },
               Object {
-                "content": "export enum Conclusion {
-    ",
+                "content": "export enum Conclusion {",
                 "isNormal": true,
                 "newLineNumber": 28,
                 "oldLineNumber": 28,
                 "type": "normal",
               },
               Object {
-                "content": "  SUCCESS = \\"success\\",
-    ",
+                "content": "  SUCCESS = \\"success\\",",
                 "isNormal": true,
                 "newLineNumber": 29,
                 "oldLineNumber": 29,
                 "type": "normal",
               },
             ],
-            "content": "@@ -23,7 +23,7 @@ import fs from \\"fs\\";
-    ",
+            "content": "@@ -23,7 +23,7 @@ import fs from \\"fs\\";",
             "newLines": 7,
             "newStart": 23,
             "oldLines": 7,
@@ -97,16 +88,12 @@ test("should parse diff", () => {
           },
         ],
         "newEndingNewLine": true,
-        "newMode": "100644
-    ",
-        "newPath": "src/solidarity.ts
-    ",
+        "newMode": "100644",
+        "newPath": "src/solidarity.ts",
         "newRevision": "abb3a30",
         "oldEndingNewLine": true,
-        "oldMode": "100644
-    ",
-        "oldPath": "src/solidarity.ts
-    ",
+        "oldMode": "100644",
+        "oldPath": "src/solidarity.ts",
         "oldRevision": "c5284c3",
         "type": "modify",
       },
@@ -121,8 +108,7 @@ test("should parse diff", () => {
                 "type": "delete",
               },
             ],
-            "content": "@@ -1 +0,0 @@
-    ",
+            "content": "@@ -1 +0,0 @@",
             "newLines": 1,
             "newStart": 0,
             "oldLines": 1,
@@ -130,16 +116,12 @@ test("should parse diff", () => {
           },
         ],
         "newEndingNewLine": true,
-        "newMode": "100644
-    ",
-        "newPath": "ev/null
-    ",
+        "newMode": "100644",
+        "newPath": "dev/null",
         "newRevision": "abb3a30",
         "oldEndingNewLine": true,
-        "oldMode": "100644
-    ",
-        "oldPath": "test.txt
-    ",
+        "oldMode": "100644",
+        "oldPath": "test.txt",
         "oldRevision": "c5284c3",
         "type": "modify",
       },

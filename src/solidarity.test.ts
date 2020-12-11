@@ -61,7 +61,7 @@ test("solidarity should run check on failing diff", async () => {
   const { conclusion, output } = await s.check();
   expect(conclusion).toBe(Conclusion.NEUTRAL);
   expect(output.title).toEqual(OutputTitle.WARNING);
-  expect(output.annotations?.length).toEqual(4);
+  expect(output.annotations?.length).toEqual(2);
   expect(info.mock.calls).toMatchInlineSnapshot(`
     Array [
       Array [
